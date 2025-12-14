@@ -1,0 +1,89 @@
+
+*{
+cursor: progress;
+}
+
+
+body{
+    border: 2px solid rgb(255, 0, 0);
+    background-color: black;
+    color: aquamarine;
+    padding-top: 70px;
+    padding-bottom: 600px;
+    
+}
+
+button{
+    background-color: red;
+    rotate: 30deg;
+    position: relative;
+    animation: butt 10s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes butt {
+    0% {background: red; left: 0px; top: 0px;}
+    25% {background: yellow; left: 200px; top: 0px;}
+    50% {background: blue; left: 200px; top: 200px;}
+    75% {background: green; left: 0px; top: 200px;}
+    100% {background: red; left: 0px; top: 0px;}
+}
+
+
+#lists{
+    border: 2px solid red;
+}
+
+#listone{
+    border: 2px solid rgb(0, 115, 255);
+    color: gold;
+     position: relative;
+    animation: butts 30s infinite;
+}
+
+#listtwo{
+    border: 2px solid rgb(26, 255, 0);
+    color: blueviolet;
+    position: relative;
+    animation: butts 30s infinite;
+}
+
+@keyframes butts {
+    from {left: 10px;}
+    to {left: 400px;}
+}
+
+#lights{
+    width: 500px;
+    height: 300px;
+}
+
+#greetings{
+    border: 2px solid rgb(255, 0, 123);
+    rotate: 330deg
+}
+
+#fart{
+    border: 2px solid greenyellow; /*remove later*/
+    font-size: large;
+    text-decoration: line-through;
+    rotate: 15deg;
+    text-emphasis: filled;
+    position: relative;
+    animation: fart 20s infinite;
+}
+
+@keyframes fart {
+    from {left: 10px;}
+    to {left: 400px;}
+}
+
+
+
+#tree{
+    width: 400px;
+    height: 300px;
+    -webkit-box-reflect: below
+}
+
+
